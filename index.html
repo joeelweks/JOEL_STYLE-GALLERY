@@ -1,0 +1,355 @@
+<html>
+
+<head>
+    <title>STYLE GALLERY</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+        img:hover {
+            transform: scale(1.2);
+            transition: 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- navigation bar -->
+        <!-- section 1 -->
+        <section class="row">
+            <div class="col-md-12">
+                <!-- navbar-expand-md will expand on large devices and collpase on small devices -->
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- navbar-brand places the logo or the name of the website -->
+                    <a href="" class="navbar-brand"><b>STYLE GALLERY</b></a>
+                    <!-- navbar-toggler this only shows/visible when the navbar is collapsed -->
+                    <!-- data-bs-toggle" shows the button will hide/show sth -->
+                    <!-- data-bs-target="#id" points to which element should expand/collapse-->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <!-- navbar-toggler-icon this is to place the humbger icon-->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse hides content on small devices -->
+                    <!-- navbar-collapse aligns the navbar items and shows the links on a larger screen -->
+                    <!-- id connects to the button so that when clicked it can toggle from expanded/collapse and vice versa -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <!-- navbar-nav ensures correct spacing and alignment -->
+                        <div class="navbar-nav">
+                            <!-- navlink styling of individual link and active shows the active link in that page -->
+                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="order.html" class="nav-link">Order</a>
+                            <a href="aboutus.html" class="nav-link">About Us</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- end of section 1 -->
+
+        <!-- carousel -->
+        <!-- section 2 -->
+        <section class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/clothes1.webp" alt="slide 1" class="w-100 d-block" height="420px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clothes2.jpg" alt="slide 1" class="w-100 d-block" height="420px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clothes3.webp" alt="slide 1" class="w-100 d-block" height="420px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clothes4.webp" alt="slide 2" class="w-100 d-block" height="420px">
+                        </div>
+                    </div>
+                    <!-- controllers -->
+                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-danger"></span>
+                    </a>
+                    <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-danger"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 2 -->
+        <br>
+        <hr>
+        <!-- section 1 -->
+        <h4 style="text-decoration: overline; font-weight: 900">T-Shirts</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <h5>Black</h5>
+                <img src="images/tshirt1.webp" alt="tshirt1" width="100%" height="200">
+                <p>A premium cotton staple featuring a soft, breathable feel and a modern fit. Versatile and durable, it
+                    is the ultimate essential for effortless everyday style.</p>
+                <b class="text-info">Ksh 900</b> <br>
+                <span class="badge bg-danger">7% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>White</h5>
+                <img src="images/tshirt2.jpg" alt="tshirt2" width="100%" height="200">
+                <p>Our ultra-soft crewneck delivers a clean, modern fit in breathable cotton. It is a durable, go-to
+                    essential designed for all-day comfort and easy styling.</p>
+                <b class="text-info">Ksh 900</b> <br>
+                <span class="badge bg-danger">7% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>Red</h5>
+                <img src="images/tshirt3.png" alt="tshirt3" width="100%" height="200">
+                <p>This classic everyday tee features a lightweight, breathable build and a smooth finish. It is the
+                    perfect minimalist piece for a clean look and a comfortable, reliable fit.</p>
+                <b class="text-info">Ksh 800</b> <br>
+                <span class="badge bg-danger">5% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>Yellow</h5>
+                <img src="images/tshirt6.webp" alt="tshirt4" width="100%" height="180">
+                <p>An essential cotton tee with a buttery-soft feel and a sharp, tailored silhouette. It is a
+                    breathable, high-quality basic that transitions seamlessly from the couch to the city.</p>
+                <b class="text-info">Ksh 1000</b> <br>
+                <span class="badge bg-danger">4% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+        </section>
+        <br>
+        <hr>
+
+
+        <h4 style="text-decoration: overline; font-weight: 900">Hoodies</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <h5>Grey</h5>
+                <img src="images/hoodie1.webp" alt="hoodie1" width="100%" height="200">
+                <p>A premium fleece hoodie featuring a plush interior and modern fit. It is the perfect blend of comfort
+                    and effortless street style.</p>
+                <b class="text-info">Ksh 2000</b> <br>
+                <span class="badge bg-danger">12% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>White</h5>
+                <img src="images/hoodie2.jpg" alt="hoodie2" width="100%" height="200">
+                <p>A cozy fleece staple with a soft interior and a relaxed fit. Warm, durable, and perfect for
+                    effortless layering.</p>
+                <b class="text-info">Ksh 1900</b> <br>
+                <span class="badge bg-danger">10% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>Grey Fade</h5>
+                <img src="images/hoodie3.jpg" alt="hoodie3" width="100%" height="200">
+                <p>An ultra-soft fleece essential designed for lasting warmth and effortless style. At your comfort.</p>
+                <b class="text-info">Ksh 800</b> <br>
+                <span class="badge bg-danger">5% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+            <div class="col-md-3 text-center">
+                <h5>Styled Cream</h5>
+                <img src="images/hoodie6.jpg" alt="hoodie5" width="100%" height="200">
+                <p>An essential cotton tee with a soft feel. It is a basic that transitions seamlessly from the couch to
+                    the city.</p>
+                <b class="text-info">Ksh 1700</b> <br>
+                <span class="badge bg-danger">11% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+        </section>
+
+        <br>
+        <hr>
+
+        <h4 style="text-decoration: overline; font-weight: 900">Jeans</h4>
+        <h4 class="text-center text-primary" style="text-decoration: solid;"><b><u>Men</u></b></h4>
+        <hr>
+        <section class="row text-center">
+            <div class="col-md-3">
+                <h5>Grey XL</h5>
+                <img src="images/jeansm1.jpeg" alt="hoodie3" width="100%" height="500">
+                <p>An ultra-soft fleece essential designed for lasting warmth and effortless style. At your comfort.</p>
+                <b class="text-info">Ksh 1200</b> <br>
+                <span class="badge bg-danger">5% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Dark Blue</h5>
+                <img src="images/jeansm2.webp" alt="hoodie3" width="100%" height="500">
+                <p>They are one of the few items that can transition seamlessly from a weekend hike to a casual office
+                    setting or a night out.</p>
+                <b class="text-info">Ksh 1400</b> <br>
+                <span class="badge bg-danger">8% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Black</h5>
+                <img src="images/jeansm3.jpg" alt="hoodie3" width="100%" height="500">
+                <p>Cut wide through the seat and leg for maximum comfort and airflow. Best for athletic builds or a
+                    laid-back, rugged style.</p>
+                <b class="text-info">Ksh 1500</b> <br>
+                <span class="badge bg-danger">10% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Light blue</h5>
+                <img src="images/jeansm4.webp" alt="hoodie3" width="100%" height="500">
+                <p>Tailored to follow the leg’s shape for a sharp, modern look without being tight. Best for a "dressed
+                    up" casual vibe.</p>
+                <b class="text-info">Ksh 1350</b> <br>
+                <span class="badge bg-danger">4% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+        </section>
+        <br>
+        <hr>
+
+        <h4 class="text-center text-primary" style="text-decoration: solid;"><b><u>Women</u></b></h4>
+        <hr>
+        <section class="row text-center">
+            <div class="col-md-3">
+                <h5>Light Blue Baggy</h5>
+                <img src="images/jeansw1.avif" alt="hoodie3" width="100%" height="500">
+                <p>An ultra-soft fleece essential designed for lasting warmth and effortless style. At your comfort.</p>
+                <b class="text-info">Ksh 1500</b> <br>
+                <span class="badge bg-danger">5% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Blue Baggy</h5>
+                <img src="images/jeansw5.avif" alt="hoodie3" width="100%" height="500">
+                <p>They are one of the few items that can transition seamlessly from a weekend hike to a casual office
+                    setting or a night out.</p>
+                <b class="text-info">Ksh 1400</b> <br>
+                <span class="badge bg-danger">8% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Black Baggy</h5>
+                <img src="images/jeanw6.avif" alt="hoodie3" width="100%" height="500">
+                <p>Cut wide through the seat and leg for maximum comfort and airflow. Best for athletic builds or a
+                    laid-back, rugged style.</p>
+                <b class="text-info">Ksh 1200</b> <br>
+                <span class="badge bg-danger">10% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Dark Blue Baggy</h5>
+                <img src="images/jeansw4.webp" alt="hoodie3" width="100%" height="500">
+                <p>Tailored to follow the leg’s shape for a sharp, modern look without being tight. Best for a "dressed
+                    up" casual vibe.</p>
+                <b class="text-info">Ksh 1350</b> <br>
+                <span class="badge bg-danger">4% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+        </section>
+        <br>
+        <hr>
+
+        <h4 style="text-decoration: overline; font-weight: 900">Men Suits</h4>
+        <section class="row text-center">
+            <div class="col-md-3">
+                <h5>Official Cream</h5>
+                <img src="images/suitm1.jpg" alt="hoodie3" width="100%" height="400">
+                <p>An ultra-soft fleece essential designed for lasting warmth and effortless style. At your comfort.</p>
+                <b class="text-info">Ksh 8500</b> <br>
+                <span class="badge bg-danger">10% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Official White</h5>
+                <img src="images/suitm2.jpg" alt="hoodie3" width="100%" height="400">
+                <p>They are one of the few items that can transition seamlessly from a weekend hike to a casual office
+                    setting or a night out.</p>
+                <b class="text-info">Ksh 9000</b> <br>
+                <span class="badge bg-danger">8% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Style White</h5>
+                <img src="images/suitm3.jpg" alt="hoodie3" width="100%" height="400">
+                <p>Cut wide through the seat and leg for maximum comfort and airflow. Best for athletic builds or a
+                    laid-back, rugged style.</p>
+                <b class="text-info">Ksh 9500</b> <br>
+                <span class="badge bg-danger">19% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+
+            <div class="col-md-3">
+                <h5>Style Cream</h5>
+                <img src="images/suitm4.jpg" alt="hoodie3" width="100%" height="400">
+                <p>Tailored to follow the leg’s shape for a sharp, modern look without being tight. Best for a "dressed
+                    up" casual vibe.</p>
+                <b class="text-info">Ksh 9000</b> <br>
+                <span class="badge bg-danger">12% OFF</span> <br>
+                <input type="button" value="Add to Wish List" class="mt-1 btn bg-info">
+            </div>
+        </section>
+        <br><hr>
+
+        <!-- section footer -->
+        <section class="row bg-dark text-light p-4">
+            <div class="col-md-4">
+                <h4 class="text-center">About Us</h4>
+                <p>Dedicated to excellence since 2024, STYLE GALLERY provides high-quality solutions tailored to your
+                    unique needs. We combine industry expertise with a personalized touch to ensure you get the results
+                    you deserve. Clean, simple, and always reliable.</p>
+                <p>We believe that great design is more than just aesthetics—it is about creating meaningful
+                    connections. Founded on the principles of innovation and integrity, our team works tirelessly to
+                    turn complex ideas into simple, elegant solutions. We are not just building products; we are helping
+                    our community grow one project at a time.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center">Contact Us</h4>
+                <form action="">
+                    <input type="email" placeholder="Enter Your Email" class="form-control" required> <br>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"
+                        placeholder="Leave A Comment"></textarea> <br>
+                    <input type="submit" value="Send a Message" class="btn btn-danger">
+                </form>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4>Stay Connected</h4>
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt="" ></a>
+                <a href="https://www.instagram.com"><img src="images/in.png" alt="" ></a>
+                <a href="https://www.x.com"><img src="images/x.png" alt=""></a> <br> <br>
+                <label for="" style="font-weight: bolder;">Contact</label>
+                <input type="tel" placeholder="0708488014 " class="text-center">
+                <hr>
+
+                <p class="mt-3">Do not miss a beat. From industry insights to company milestones, staying connected
+                    ensures you are always in the loop. Follow us on our official channels or reach out directly—we’re
+                    always here to start a conversation.</p>
+            </div>
+        </section>
+        <br> <hr>
+
+        <!-- section copyright -->
+        <section class="row bg-dark text-center text-light p-2">
+            <h4 class="fs-5">Developed By NiggaProMax. &copy; 2026 All Rights Reserved</h4>
+        </section>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
